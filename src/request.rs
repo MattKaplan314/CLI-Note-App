@@ -1,7 +1,6 @@
 use std::fmt::{Formatter, Display};
 use std::fmt;
 use std::write;
-
 use std::str::{self, Utf8Error};
 use std::convert::TryFrom;
 

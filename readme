@@ -2,33 +2,16 @@ hello this is note cli
 
 note cli is a command line app
 
-that allows people to quickly take notes down and be able to look back at them
+note cli will allow users to quickly write a note, and have it saved anywhere or to specified location
 
-at a later date
+to use the program:
 
-the notes will be stored on the users computer
+there are 3 commands at this time
 
-and there will be a config file in the .config file of most computers
+new
+view
+help
 
-
-it will work like this 
-
-
-get user input from command line
-	|
-	|
-       \|/ 
-parse user input 
-	|
-	|
-       \|/
-if it is a new note than it will capture the text after the new sign
-and make a new note and save that note to the file system
-	|
-	|
-       \|/
-else if it is anything else than it will check for (find(path),delete(path),read(path))
-	|
-	|
-       \|/
-once the user hits a key the program will shut down
+new will allow you to make a new note : >>> app.exe new path note
+view will allow the user to view a note: >>> app.exe view path
+help will tell you this stuff over again: >>> app.exe help
