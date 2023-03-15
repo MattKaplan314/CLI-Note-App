@@ -1,0 +1,34 @@
+hello this is note cli 
+
+note cli is a command line app
+
+that allows people to quickly take notes down and be able to look back at them
+
+at a later date
+
+the notes will be stored on the users computer
+
+and there will be a config file in the .config file of most computers
+
+
+it will work like this 
+
+
+get user input from command line
+	|
+	|
+       \|/ 
+parse user input 
+	|
+	|
+       \|/
+if it is a new note than it will capture the text after the new sign
+and make a new note and save that note to the file system
+	|
+	|
+       \|/
+else if it is anything else than it will check for (find(path),delete(path),read(path))
+	|
+	|
+       \|/
+once the user hits a key the program will shut down

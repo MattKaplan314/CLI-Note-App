@@ -9,11 +9,11 @@
 // for each action have correct "program cycle"
 //
 use crate::request::Request;
-use crate::req_parse::{ user_action, user_action_error };
+
 use std::io::Write;
 use std::{env, fs};
 use std::convert::TryFrom;
-use std::fs::{File, Metadata};
+use std::fs::File;
 pub struct App<'a> {
     current_request: &'a Request<'a>,
 }
