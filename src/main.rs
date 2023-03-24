@@ -17,17 +17,3 @@ fn main() {
 
 
 
-
-pub fn combine_vec_items(vec: Vec<String>) -> String {
-    let mut ret: String = "".to_string();
-
-    for i in vec {
-        ret.push_str(&i);
-        ret.push_str(" ");
-    }
-
-    ret.to_string()
-}
-
-
-
